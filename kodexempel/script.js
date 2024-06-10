@@ -4,8 +4,10 @@ console.log('Hello world')
 // Skriv funktion som skickar request
 // uppdatera med svaret när det kommer
 
-const button = document.querySelector('#get-joke-button')
+const dadJokeButton = document.querySelector('#get-joke-button')
 const display = document.querySelector('.display-joke')
+
+dadJokeButton.addEventListener('click', getJokeFromApi)
 
 async function getJokeFromApi() {
 	const baseUrl = 'https://api.api-ninjas.com/v1/dadjokes'
@@ -28,4 +30,33 @@ async function getJokeFromApi() {
 	display.innerText = theJoke
 }
 
-button.addEventListener('click', getJokeFromApi)
+
+
+// JavaScript - se upp! Det finns flera fel i koden
+// Om du är tvungen att ta hjälp av Aizo, be om en ledtråd först, i stället för lösningen.
+const chuckOutput = document.querySelector('.chuck-output')
+const chuckButton = document.querySelector('#get-joke')
+const chuckIcon = document.querySelector('#chuck-icon')
+console.log('Kom ihåg att du kan använda console.log för felsökning!')
+
+// console.log('Är chuckButton null?', chuckButton)
+chuckButton.addEventListener('click', getChuckJoke)
+
+async function getChuckJoke() {
+	const baseUrl = 'https://api.chucknorris.io/jokes/random'
+    const response = await fetch(baseUrl)
+	const data = await response.json()  // realisera löftet (Promise)
+	console.log('Är data bättre?', data)
+    const joke = data.value
+    chuckOutput.innerText = joke
+	// chuckIcon.src = data.icon_url  <- bildfunktionen verkar vara offline
+}
+
+// const object = {
+// 	property1: 123,
+// 	property2: true
+// }
+// object.property1
+
+// const variabel = null
+// variabel.property1
