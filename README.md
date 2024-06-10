@@ -7,10 +7,12 @@ Lektion vecka 6, asynkron JavaScript med API
 
 
 Veckoprojekt
-+ projekt och inlämning läggs upp mot slutet av lektionen
++ [Länk till projekt](projekt.md)
++ [Länk till inlämning](https://docs.google.com/forms/d/e/1FAIpQLSd1wjXFeMVtQyD4YzoeCyp5nXN68F8bQZ-9O-lazqzegsH7Iw/viewform?usp=sf_link)
 
 Inspelning
-+ läggs upp efter lektionen
++ [Länk till inspelning](https://folkuniversitetet-se.zoom.us/rec/share/ExnEjyUWGx-9v4wrYeAhijw9FYEBoynv02MRBcWEmaqLBbSZL4O43Ue23J483gQ.ziR4pXRrefCckysi)
++ Lösenkod: `0S4Jy1&N`
 
 
 ## Resurser

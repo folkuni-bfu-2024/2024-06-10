@@ -4,9 +4,11 @@ Du ska bygga en webbapp som hämtar information om karaktärer och planeter i St
 ## Beskrivning
 Sidan ska visa information om karaktärer från Star Wars. På varje nivå lägger vi till fler funktioner till sidan.
 
-[https://swapi.dev/documentation](Dokumentation för API:et)
+[Dokumentation för API:et](https://swapi.dev/documentation)
 
 ![Designskiss på level 1](veckoprojekt1.png)
+
+[Källkod till designskiss (CodePen)](https://codepen.io/david-zocom/pen/MWdEgaq?editors=1100)
 
 ### Level 1
 Webbsidan ska ha en knapp med texten "Help me Obi-Wan". När användaren klickar på den, ska appen skicka ett request till:
